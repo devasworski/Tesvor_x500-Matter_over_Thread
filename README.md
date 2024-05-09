@@ -1,6 +1,8 @@
-# Tesvor_x500-Matter_over_Thread
+# Tesvor x500 with Matter over Thread
 
-**Work in Progress. Contributions welcome**
+<img src="https://www.matteralpha.com/media/cache/resolve/full/thread-logo.webp" height='100px'> <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Matter_logo.jpg" height='100px'>
+
+## 🚧 Work in Progress. Contributions welcome 🚧
 
 ### Goal:
 Replace the Wifi Chip within a Tesvor x500 with a ESP32 H2 to support Matter over Thread.
