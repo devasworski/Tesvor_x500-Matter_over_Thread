@@ -21,3 +21,6 @@ No information about the docking status could be found.
 
 This would allow for follwong state State Machine within Matter:
 <img width="1002" alt="Pasted Graphic" src="https://github.com/devasworski/Tesvor_x500-Matter_over_Thread/assets/34026653/96f7bd0f-c40f-49b8-b652-a36c1b02c4ba">
+
+### Related Topcis
+- Tasmoto for Tesvor x500: https://github.com/arendst/Tasmota/discussions/19554
