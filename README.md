@@ -3,6 +3,12 @@
 <img src="https://www.matteralpha.com/media/cache/resolve/full/thread-logo.webp" height='100px'> <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Matter_logo.jpg" height='100px'>
 
 ## 🚧 Work in Progress. Contributions welcome 🚧
+ **Warning**
+Matter 1.2 support is needed to use this. Currently no major Smarthome platform supports this. This will lead to a error similar to this:
+*"This device is currently not supported in the Home App"*
+
+<img width="400" alt="State Machine" src="https://github.com/devasworski/Tesvor_x500-Matter_over_Thread/assets/34026653/1d1d448c-9261-4d6e-9f06-82ced4252290">
+
 
 ### Goal:
 Replace the Wifi Chip within a Tesvor x500 with a ESP32 H2 to support Matter over Thread.
@@ -22,7 +28,7 @@ I could find the following information being communicated to the wifi chip:
 No information about the docking status could be found.
 
 This would allow for follwong state State Machine within Matter:
-<img width="1002" alt="Pasted Graphic" src="https://github.com/devasworski/Tesvor_x500-Matter_over_Thread/assets/34026653/96f7bd0f-c40f-49b8-b652-a36c1b02c4ba">
+<img width="1002" alt="State Machine" src="https://github.com/devasworski/Tesvor_x500-Matter_over_Thread/assets/34026653/96f7bd0f-c40f-49b8-b652-a36c1b02c4ba">
 
 ### Related Topcis
 - Tasmoto for Tesvor x500: https://github.com/arendst/Tasmota/discussions/19554
