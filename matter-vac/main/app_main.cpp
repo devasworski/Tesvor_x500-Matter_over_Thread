@@ -5,6 +5,7 @@
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
    CONDITIONS OF ANY KIND, either express or implied.
 */
+#include "matter_config.h"
 
 #include <esp_err.h>
 #include <esp_log.h>
@@ -30,6 +31,25 @@ using namespace esp_matter::endpoint;
 using namespace chip::app::Clusters;
 
 constexpr auto k_timeout_seconds = 300;
+
+void InitMatter()
+{
+    // Initialize the CHIP stack
+    chip::Platform::MemoryInit();
+    chip::DeviceLayer::PlatformMgr().InitChipStack();
+
+    // Store the device configuration
+    /*
+    chip::DeviceLayer::ConfigurationMgr().StoreDeviceName(CHIP_DEVICE_CONFIG_DEVICE_NAME);
+    chip::DeviceLayer::ConfigurationMgr().StoreProductName(CHIP_DEVICE_CONFIG_PRODUCT_NAME);
+    chip::DeviceLayer::ConfigurationMgr().StoreManufacturerName(CHIP_DEVICE_CONFIG_MANUFACTURER_NAME);
+    chip::DeviceLayer::ConfigurationMgr().StoreSoftwareVersionString(CHIP_DEVICE_CONFIG_DEVICE_SOFTWARE_VERSION_STRING);
+    */
+    // Additional initialization if needed...
+
+    // Start the CHIP event loop
+    chip::DeviceLayer::PlatformMgr().StartEventLoopTask();
+}
 
 static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg)
 {
@@ -133,6 +153,8 @@ extern "C" void app_main()
 
     /* Initialize the ESP NVS layer */
     nvs_flash_init();
+
+    //InitMatter();
 
     /* Initialize driver */
     app_driver_handle_t vacuume_handle = app_driver_vacuume_init();
