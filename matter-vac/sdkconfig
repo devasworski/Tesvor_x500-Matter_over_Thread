@@ -2097,14 +2097,6 @@ CONFIG_CU_DIAGNOSTICS_COLOR_ALWAYS=y
 # end of CMake Utilities
 
 #
-# jsmn
-#
-# CONFIG_JSMN_PARENT_LINKS is not set
-# CONFIG_JSMN_STRICT is not set
-# CONFIG_JSMN_STATIC is not set
-# end of jsmn
-
-#
 # ESP Secure Cert Manager
 #
 CONFIG_ESP_SECURE_CERT_DS_PERIPHERAL=y
@@ -2123,6 +2115,14 @@ CONFIG_ADC_BUTTON_MAX_CHANNEL=3
 CONFIG_ADC_BUTTON_MAX_BUTTON_PER_CHANNEL=8
 CONFIG_ADC_BUTTON_SAMPLE_TIMES=1
 # end of IoT Button
+
+#
+# jsmn
+#
+# CONFIG_JSMN_PARENT_LINKS is not set
+# CONFIG_JSMN_STRICT is not set
+# CONFIG_JSMN_STATIC is not set
+# end of jsmn
 # end of Component config
 
 # CONFIG_IDF_EXPERIMENTAL_FEATURES is not set

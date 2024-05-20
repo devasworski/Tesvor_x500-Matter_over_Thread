@@ -6,3 +6,6 @@ build/
 
 # Build directories at any level
 **/build/
+
+# Managed Components
+**/managed_components/

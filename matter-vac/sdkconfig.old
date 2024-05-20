@@ -2086,13 +2086,6 @@ CONFIG_ESP_MATTER_CONSOLE_MAX_COMMANDS=10
 # end of ESP Matter Controller
 
 #
-# ESP Secure Cert Manager
-#
-CONFIG_ESP_SECURE_CERT_DS_PERIPHERAL=y
-# CONFIG_ESP_SECURE_CERT_SUPPORT_LEGACY_FORMATS is not set
-# end of ESP Secure Cert Manager
-
-#
 # CMake Utilities
 #
 # CONFIG_CU_RELINKER_ENABLE is not set
@@ -2102,6 +2095,13 @@ CONFIG_CU_DIAGNOSTICS_COLOR_ALWAYS=y
 # CONFIG_CU_GCC_LTO_ENABLE is not set
 # CONFIG_CU_GCC_STRING_1BYTE_ALIGN is not set
 # end of CMake Utilities
+
+#
+# ESP Secure Cert Manager
+#
+CONFIG_ESP_SECURE_CERT_DS_PERIPHERAL=y
+# CONFIG_ESP_SECURE_CERT_SUPPORT_LEGACY_FORMATS is not set
+# end of ESP Secure Cert Manager
 
 #
 # jsmn
