@@ -75,4 +75,4 @@ The table below lists qualities and conformance that override the cluster specif
 | 0x0061 | RVC Operational State  | Command       | Stop   |            |        | X           |
 
 ### Matter 1.2 Application Cluster Specification
-[Chapter 7. Robots](Chapter_7_Robots-Matter_Application Clusters - Matter-1.2-Application-Cluster-Specification.pdf)
+[Chapter 7. Robots](Chapter_7_Robots-Matter_Application%20Clusters%20-%20Matter-1.2-Application-Cluster-Specification.pdf)
